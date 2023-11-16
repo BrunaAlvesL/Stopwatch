@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(128, 128, 128, 0.404);
+
+}
+div{
+    text-align: center;
+    margin: 60px;
+    padding: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    
+}
+
+.title {
+   
+}
+
+
+
+button {
+    
+    height: 3.2em;
+    width: 6.5em;
+    border: black;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+.star-btn{
+    background-color: green;
+
+}
+
+.pause-btn {
+    background-color: grey;
+}
+
+.stop-btn {
+    background-color: red;
+}
