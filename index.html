@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stopwatch</title>
+    <script src="https://kit.fontawesome.com/b783c53a52.js" crossorigin="anonymous"></script>
+    <title class="title">Stopwatch</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <div>
+
+    <div class="container">
         <h1 class="title">Stopwatch</h1>
         <h2 id="watch">00:00:00</h2>
-        <button class="star-btn" onclick="star()">Iniciar</button>
-        <button class="pause-btn" onclick="pause()">Pausar</button>
-        <button class="stop-btn" onclick="stop()">Parar</button>
+        <div class="buttons">
+            <button class="star-btn" onclick="star()">Iniciar</button>&nbsp;
+            <button class="pause-btn" onclick="pause()">Pausar</button>&nbsp;
+            <button class="stop-btn" onclick="stop()">Parar</button>
+        </div>
     </div>
-    
-<script src="./script.js"></script>
+
+    <script src="./script.js"></script>
 </body>
+
 </html>

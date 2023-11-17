@@ -1,48 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: rgba(128, 128, 128, 0.404);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle at 44.92% -8.06%, #ffb600 0, #ffa703 8.33%, #ff9621 16.67%, #ff8330 25%, #ff703b 33.33%, #ff5b42 41.67%, #f94646 50%, #e43148 58.33%, #d01d4b 66.67%, #be054d 75%, #ae0050 83.33%, #a00053 91.67%, #930058 100%);;
 
 }
 
-div{
-    text-align: center;
+.container{
+    position:relative;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.747);
+    padding: 28px 32px;
+    border-radius: 18px;
+    font-family: 'Roboto', sans-serif;
+  
+    /*text-align: center;
     margin: 60px;
     padding: 100px;
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 20px;
-    background-color: black;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;*/
     
 }
 
-h2 {
-    font-size: 50px;
+.title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
 }
-button {
-    
-height: 3.2em;
+
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.815);
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20%;
+    padding: 10;
+        
+}
+
+button:hover{
+    cursor: pointer;   
+}
+
+.star-btn{
+    height: 3.2em;
     width: 6.5em;
     border: black;
-    border-radius: 3px;
+    border-radius: 5px;
+    background-color: green;
     color: white;
     font-weight: bold;
     font-size: 18px;
 }
 
-button:hover{
-    cursor: pointer;
-}
+.star-btn:hover{
+    background-color: rgba(0, 128, 0, 0.527);
 
-
-.star-btn{
-    background-color: green;
 
 }
 
 .pause-btn {
+    height: 3.2em;
+    width: 6.5em;
+    border: black;
+    border-radius: 5px;
     background-color: grey;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.pause-btn:hover{
+    background-color: rgba(128, 128, 128, 0.616);
+
 }
 
 .stop-btn {
+    height: 3.2em;
+    width: 6.5em;
+    border: black;
+    border-radius: 5px;
     background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.stop-btn:hover{
+    background-color: rgba(255, 0, 0, 0.664);
+
 }
